@@ -1,0 +1,53 @@
+version: "3.8"
+
+services:
+
+ # database service
+  database:
+    image: postgres:15.2
+    environment:
+      POSTGRES_USER: ${DATABASE_USER}
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
+      POSTGRES_DB: ${DATABASE_NAME}
+      PGDATA: ${DATABASE_PGDATA}
+    volumes:
+      - ${DATABASE_PGDATA}
+    ports:
+      - ${DATABASE_PORT}:${DATABASE_PORT}
+    restart: always
+    networks:
+      - custom
+    env_file:
+      - bot-app/.env
+
+# bot application service
+  bot-app:
+    # запуск приложения бота
+
+    depends_on:
+      - database
+    restart: always
+    networks:
+      - custom
+    env_file:
+      - bot-app/.env
+
+# admin application service
+  admin-app:
+    # запуск приложения админки
+    # типа такого
+    # command: sh -c "python manage.py migrate && python manage.py create_superuser django password123 &&
+    # python manage.py runserver '${ADMIN_SITE_HOST}:${ADMIN_SITE_PORT}'"
+    ports:
+      - ${ADMIN_SITE_PORT}:${ADMIN_SITE_PORT}
+    depends_on:
+      - database
+    restart: always
+    networks:
+      - custom
+    env_file:
+      - admin/.env
+
+networks:
+  custom:
+    driver: bridge
