@@ -2,9 +2,8 @@ version: "3.8"
 
 services:
 
- # database service
   database:
-    image: postgres:15.2
+    image: postgres:14.9
     environment:
       POSTGRES_USER: ${DATABASE_USER}
       POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
@@ -18,26 +17,27 @@ services:
     networks:
       - custom
     env_file:
-      - bot-app/.env
+      - .env
 
 # bot application service
   bot-app:
-    # запуск приложения бота
-
+    build:
+      context: ./bot-app
+      dockerfile: Dockerfile
+    command: python main.py
     depends_on:
       - database
     restart: always
     networks:
       - custom
-    env_file:
-      - bot-app/.env
 
 # admin application service
   admin-app:
-    # запуск приложения админки
-    # типа такого
-    # command: sh -c "python manage.py migrate && python manage.py create_superuser django password123 &&
-    # python manage.py runserver '${ADMIN_SITE_HOST}:${ADMIN_SITE_PORT}'"
+    build:
+      context: ./admin
+      dockerfile: Dockerfile
+    command: sh -c "python manage.py makemigrations && python manage.py migrate && python manage.py createsuperuser &&
+             python manage.py runserver '${ADMIN_SITE_HOST}:${ADMIN_SITE_PORT}'"
     ports:
       - ${ADMIN_SITE_PORT}:${ADMIN_SITE_PORT}
     depends_on:
@@ -46,7 +46,7 @@ services:
     networks:
       - custom
     env_file:
-      - admin/.env
+      - .env
 
 networks:
   custom:

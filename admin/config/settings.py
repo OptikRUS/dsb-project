@@ -12,12 +12,15 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 import os
 import environ
 from pathlib import Path
+from dotenv import load_dotenv
 
 from django.utils.translation import gettext_lazy as _
 
 # Initialise environment variables
 env = environ.Env()
 environ.Env.read_env()
+
+load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -27,7 +30,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.getenv("AUTH_SECRET_KEY", "django-insecure-nqzsleaz0oiddjyujr0%c(@ytnwxxi0qt=3-hk1*d$0&5n7e47")
+SECRET_KEY = os.getenv("AUTH_SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DEBUG")
@@ -88,11 +91,12 @@ DATABASES = {
         "NAME": os.getenv("DATABASE_NAME"),
         "USER": os.getenv("DATABASE_USER"),
         "PASSWORD": os.getenv("DATABASE_PASSWORD"),
-        "HOST": os.getenv("DATABASE_HOST"),
+        "HOST": os.getenv("DATABASE_HOST", "localhost"),
         "PORT": os.getenv("DATABASE_PORT"),
         "CONN_MAX_AGE": 600,
     },
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
@@ -134,4 +138,4 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-AUTH_USER_MODEL = "users.User"
+# AUTH_USER_MODEL = "users.User"
