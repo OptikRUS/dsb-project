@@ -19,7 +19,7 @@ services:
     env_file:
       - .env
 
-# bot application service
+  # bot application service
   bot-app:
     build:
       context: ./bot-app
@@ -30,14 +30,18 @@ services:
     restart: always
     networks:
       - custom
+    env_file:
+      - .env
 
-# admin application service
+  # admin application service
   admin-app:
     build:
       context: ./admin
       dockerfile: Dockerfile
-    command: sh -c "python manage.py makemigrations && python manage.py migrate && python manage.py createsuperuser &&
-             python manage.py runserver '${ADMIN_SITE_HOST}:${ADMIN_SITE_PORT}'"
+    command: sh -c "python manage.py makemigrations 
+                  && python manage.py migrate 
+                  &&  python manage.py add_superuser 
+                  && python manage.py runserver '${ADMIN_SITE_HOST}:${ADMIN_SITE_PORT}'"
     ports:
       - ${ADMIN_SITE_PORT}:${ADMIN_SITE_PORT}
     depends_on:
