@@ -1,5 +1,5 @@
 from pydantic_settings import SettingsConfigDict, BaseSettings
-from pydantic import Field, field_validator
+from pydantic import Field
 
 
 class BotSettings(BaseSettings):
