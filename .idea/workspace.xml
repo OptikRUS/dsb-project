@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a4c0373e-63eb-49fc-b0b7-a7c0169cd965" name="Changes" comment="script_for_superuser">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/admin/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/users/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/users/management/commands/add_superuser.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/users/management/commands/add_superuser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/users/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/users/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bot-app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot-app/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot-app/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot-app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot-app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot-app/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bot-app/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot-app/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/bot-app/pyproject.toml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2XyoZdBKIN1EumWbpBuD0G8gFHe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/valeriaevtikhova/PycharmProjects/dsb-project&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4c0373e-63eb-49fc-b0b7-a7c0169cd965" name="Changes" comment="" />
+      <created>1699610737335</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699610737335</updated>
+    </task>
+    <task id="LOCAL-00001" summary="dsb-project-4-artifact-creation">
+      <created>1701026139832</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701026139832</updated>
+    </task>
+    <task id="LOCAL-00002" summary="script_for_superuser">
+      <created>1701635352530</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701635352530</updated>
+    </task>
+    <task id="LOCAL-00003" summary="script_for_superuser">
+      <created>1701635450513</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701635450513</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dsb-project-4-artifact-creation" />
+    <MESSAGE value="script_for_superuser" />
+    <option name="LAST_COMMIT_MESSAGE" value="script_for_superuser" />
+  </component>
+</project>
