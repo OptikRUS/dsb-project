@@ -12,6 +12,7 @@ async def init():
                 "models.models_users",
                 "models.models_tickets",
                 "models.models_services",
+                "models.models_bot",
             ]
         },
     )

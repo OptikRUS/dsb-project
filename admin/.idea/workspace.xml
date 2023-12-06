@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a99b422-7aef-4777-8f0e-281d9f4ac5e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../bot-app/bot/models_bot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bot-app/config/db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bot-app/models/models_services.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bot-app/models/models_tickets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bot-app/models/models_users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bot-app/models/models_bot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bot-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bot-app/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bot-app/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../bot-app/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bot-app/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bot-app/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bot-app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bot-app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bot-app/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../bot-app/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bot-app/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../bot-app/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bot-app/config/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bot-app/config/db.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

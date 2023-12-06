@@ -4,23 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4c0373e-63eb-49fc-b0b7-a7c0169cd965" name="Changes" comment="script_for_superuser">
-      <change afterPath="$PROJECT_DIR$/bot-app/bot/models_bot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot-app/config/db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot-app/models/models_services.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot-app/models/models_tickets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot-app/models/models_users.py" afterDir="false" />
+    <list default="true" id="a4c0373e-63eb-49fc-b0b7-a7c0169cd965" name="Changes" comment="dsb-project-9-describe-table-models-for-bot">
+      <change afterPath="$PROJECT_DIR$/bot-app/models/models_bot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/users/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bot-app/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot-app/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/bot-app/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot-app/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot-app/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot-app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot-app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot-app/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bot-app/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot-app/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/bot-app/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot-app/config/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot-app/config/db.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,12 +83,20 @@
       <option name="project" value="LOCAL" />
       <updated>1701688293956</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="dsb-project-9-describe-table-models-for-bot">
+      <created>1701888979008</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701888979008</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dsb-project-4-artifact-creation" />
     <MESSAGE value="script_for_superuser" />
-    <option name="LAST_COMMIT_MESSAGE" value="script_for_superuser" />
+    <MESSAGE value="dsb-project-9-describe-table-models-for-bot" />
+    <option name="LAST_COMMIT_MESSAGE" value="dsb-project-9-describe-table-models-for-bot" />
   </component>
 </project>
