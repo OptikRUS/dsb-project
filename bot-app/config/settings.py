@@ -20,11 +20,11 @@ class PostgresSettings(BaseSettings):
     model_config = SettingsConfigDict(
         env_file=".env", env_file_encoding="utf-8", env_prefix="DATABASE_"
     )
-    user: str = Field(alias="DATABASE_USER")
-    password: str = Field(alias="DATABASE_PASSWORD")
-    host: str = Field("localhost", alias="DATABASE_HOST")
-    name: str = Field(alias="DATABASE_NAME")
-    port: str = Field(alias="DATABASE_PORT")
+    user: str
+    password: str
+    host: str = "localhost"
+    name: str
+    port: str
 
 
 class DataBaseConnections(BaseSettings):
@@ -35,9 +35,18 @@ class DataBaseConnections(BaseSettings):
         return db_url.format(**PostgresSettings().model_dump())
 
 
-database_url: str = DataBaseConnections().default
-
-
 class TortoiseSettings(BaseSettings):
     generate_schemas: bool = Field(True, env="TORTOISE_GENERATE_SCHEMAS")
     add_exception_handlers: bool = Field(True, env="DATABASE_EXCEPTION_HANDLERS")
+
+
+class Settings(BaseSettings):
+    BOT: BotSettings = BotSettings()
+    DATABASE: DataBaseConnections = DataBaseConnections()
+    TORTOISE: TortoiseSettings = TortoiseSettings()
+
+
+settings = Settings()
+
+
+

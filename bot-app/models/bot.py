@@ -8,28 +8,28 @@ class Settings(Model):
         table = "bot_settings"
 
 
-class Pages(Model):
+class Page(Model):
     message = fields.TextField()
     slug = fields.CharField(max_length=20, null=False, unique=True)
-    buttons = fields.ManyToManyField("models.Buttons", related_name="pages", through="bot_pages_buttons")
+    button = fields.ManyToManyField("models.Button", related_name="page", through="bot_pages_buttons")
 
     class Meta:
         table = "bot_pages"
 
 
-class Buttons(Model):
+class Button(Model):
     text = fields.CharField(max_length=10, null=False)
     slug = fields.CharField(max_length=20, null=False, unique=True)
     message = fields.TextField(null=True)
-    pages: fields.ManyToManyRelation[Pages]
+    page: fields.ManyToManyRelation[Page]
 
     class Meta:
         table = "bot_buttons"
 
 
 class PagesButtons(Model):
-    page = fields.ForeignKeyField("models.Pages")
-    button = fields.ForeignKeyField("models.Buttons")
+    page = fields.ForeignKeyField("models.Page")
+    button = fields.ForeignKeyField("models.Button")
 
     class Meta:
         table = "bot_pages_buttons"

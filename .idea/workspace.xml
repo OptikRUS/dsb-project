@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4c0373e-63eb-49fc-b0b7-a7c0169cd965" name="Changes" comment="dsb-project-9-describe-table-models-for-bot">
-      <change afterPath="$PROJECT_DIR$/bot-app/models/models_bot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bot-app/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot-app/config/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot-app/config/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot-app/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot-app/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot-app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot-app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot-app/models/models_bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot-app/models/bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot-app/models/models_services.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot-app/models/services.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot-app/models/models_tickets.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot-app/models/tickets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot-app/models/models_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot-app/models/users.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701888979008</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="dsb-project-9-describe-table-models-for-bot">
+      <created>1701893295529</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701893295529</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

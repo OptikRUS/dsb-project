@@ -1,24 +1,22 @@
 from tortoise import Tortoise
 
-from models.models_users import Client
-from config.settings import database_url
+from models.users import Client
+from config.settings import settings
 
 
 async def init():
     await Tortoise.init(
-        db_url=database_url,
+        db_url=settings.DATABASE.default,
         modules={
             "models": [
-                "models.models_users",
-                "models.models_tickets",
-                "models.models_services",
-                "models.models_bot",
+                "models.users",
+                "models.tickets",
+                "models.services",
+                "models.bot",
             ]
         },
     )
-    print()
     await Tortoise.generate_schemas()
-    print()
 
 
 async def create_user(name: str):

@@ -7,19 +7,12 @@ from aiogram import types
 from aiogram.filters import CommandStart, Command
 from tortoise import Tortoise
 
+
 from config.settings import bot_settings
 from config.db import init, create_user
 
 bot = Bot(token=bot_settings.bot_token)
 dp = Dispatcher()
-
-
-async def on_startup():
-    await init()
-
-
-async def on_shutdown():
-    await Tortoise.close_connections()
 
 
 @dp.message(CommandStart())
@@ -37,7 +30,7 @@ async def main():
     logging.basicConfig(level=logging.DEBUG)
     await init()
     await dp.start_polling(bot)
-
+    await Tortoise.close_connections()
 
 if __name__ == "__main__":
     asyncio.run(main())
