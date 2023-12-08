@@ -2,7 +2,7 @@
 FROM python:3.11.6
 
 # хост базы данных для докера
-ENV DATABASE_HOST=database
+#ENV DATABASE_HOST=database
 # хост сайта
 ENV SITE_HOST=0.0.0.0
 
