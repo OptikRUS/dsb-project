@@ -1,7 +1,7 @@
 # установка python 3.11 с официального докерхаба
 FROM python:3.11.6
 # хост базы данных для докера
-#ENV DATABASE_HOST=database
+ENV DATABASE_HOST=database
 # установка рабочей директории
 WORKDIR /usr/src/bot-app
 

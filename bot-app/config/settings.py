@@ -36,8 +36,11 @@ class DataBaseConnections(BaseSettings):
 
 
 class TortoiseSettings(BaseSettings):
-    generate_schemas: bool = Field(True, env="TORTOISE_GENERATE_SCHEMAS")
-    add_exception_handlers: bool = Field(True, env="DATABASE_EXCEPTION_HANDLERS")
+    model_config = SettingsConfigDict(
+        env_file=".env", env_file_encoding="utf-8", env_prefix="TORTOISE_"
+    )
+    generate_schemas: bool
+    add_exception_handlers: bool
 
 
 class Settings(BaseSettings):

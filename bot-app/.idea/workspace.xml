@@ -7,14 +7,12 @@
     <list default="true" id="959cd444-a2cb-4424-a2f5-266bba908fec" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../admin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/users/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/bot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_services.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/services.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_tickets.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/tickets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/users.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
