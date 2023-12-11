@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4c0373e-63eb-49fc-b0b7-a7c0169cd965" name="Changes" comment="dsb-project-9-describe-table-models-for-bot">
+    <list default="true" id="a4c0373e-63eb-49fc-b0b7-a7c0169cd965" name="Changes" comment="dsb-project-10-describe-table-models-for-admin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/users/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bot-app/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot-app/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/bot-app/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot-app/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot-app/config/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +32,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/valeriaevtikhova/PycharmProjects/dsb-project&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/valeriaevtikhova/PycharmProjects/dsb-project",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -100,13 +96,21 @@
       <option name="project" value="LOCAL" />
       <updated>1701893295529</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="dsb-project-10-describe-table-models-for-admin">
+      <created>1702208076714</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702208076714</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dsb-project-4-artifact-creation" />
     <MESSAGE value="script_for_superuser" />
     <MESSAGE value="dsb-project-9-describe-table-models-for-bot" />
-    <option name="LAST_COMMIT_MESSAGE" value="dsb-project-9-describe-table-models-for-bot" />
+    <MESSAGE value="dsb-project-10-describe-table-models-for-admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="dsb-project-10-describe-table-models-for-admin" />
   </component>
 </project>
