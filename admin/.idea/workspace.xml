@@ -8,13 +8,6 @@
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bot-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bot-app/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bot-app/config/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bot-app/config/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bot-app/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bot-app/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bot-app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bot-app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bot-app/models/models_bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bot-app/models/bot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bot-app/models/models_services.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bot-app/models/services.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bot-app/models/models_tickets.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bot-app/models/tickets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bot-app/models/models_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bot-app/models/users.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

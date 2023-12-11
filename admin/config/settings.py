@@ -49,6 +49,9 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # кастомные приложения
     "users",
+    "bot",
+    "services",
+    "tickets",
 ]
 
 MIDDLEWARE = [
