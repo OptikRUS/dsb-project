@@ -13,8 +13,8 @@ class Place(models.Model):
 class Service(models.Model):
     name = models.CharField(max_length=20)
     description = models.TextField()
-    price = models.DecimalField
-    place_id = models.ForeignKey(Place, on_delete=models.CASCADE)
+    price = models.PositiveIntegerField()
+    place = models.ForeignKey(Place, on_delete=models.CASCADE)
 
     class Meta:
         managed = False

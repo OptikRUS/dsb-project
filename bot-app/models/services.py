@@ -4,8 +4,8 @@ from tortoise import Model, fields
 class Service(Model):
     name = fields.CharField(max_length=20)
     description = fields.TextField()
-    price = fields.DecimalField
-    place_id = fields.ForeignKeyField(model_name="models.Place")
+    price = fields.IntField()
+    place = fields.ForeignKeyField(model_name="models.Place")
 
     class Meta:
         table = "services_service"

@@ -7,7 +7,14 @@
     <list default="true" id="959cd444-a2cb-4424-a2f5-266bba908fec" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../admin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/bot/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/bot/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/services/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/services/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/services/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/services/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/tickets/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/tickets/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/users/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/services.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/services.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
