@@ -12,9 +12,9 @@ class Slot(models.Model):
 
 
 class Ticket(models.Model):
-    client_id = models.ForeignKey("users.Client", on_delete=models.CASCADE)
-    slot_id = models.ForeignKey(Slot, on_delete=models.CASCADE)
-    service_id = models.ForeignKey("services.Service", on_delete=models.CASCADE)
+    client = models.ForeignKey("users.Client", on_delete=models.CASCADE)
+    slot = models.ForeignKey(Slot, on_delete=models.CASCADE)
+    service = models.ForeignKey("services.Service", on_delete=models.CASCADE)
     updated_at = models.DateTimeField()
     created_at = models.DateTimeField()
     is_active = models.BooleanField(default=False)

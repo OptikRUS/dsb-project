@@ -11,9 +11,9 @@ class Slot(Model):
 
 
 class Ticket(Model):
-    client_id = fields.ForeignKeyField(model_name="models.Client")
-    slot_id = fields.ForeignKeyField(model_name="models.Slot")
-    service_id = fields.ForeignKeyField(model_name="models.Service")
+    client = fields.ForeignKeyField(model_name="models.Client")
+    slot = fields.ForeignKeyField(model_name="models.Slot")
+    service = fields.ForeignKeyField(model_name="models.Service")
     updated_at = fields.DatetimeField()
     created_at = fields.DatetimeField()
     is_active = fields.BooleanField(default=False)
