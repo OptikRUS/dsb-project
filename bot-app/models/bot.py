@@ -11,7 +11,9 @@ class Settings(Model):
 class Page(Model):
     message = fields.TextField()
     slug = fields.CharField(max_length=20, null=False, unique=True)
-    button = fields.ManyToManyField("models.Button", related_name="page", through="bot_pages_buttons")
+    button = fields.ManyToManyField(
+        "models.Button", related_name="page", through="bot_pages_buttons"
+    )
 
     class Meta:
         table = "bot_pages"

@@ -1,5 +1,6 @@
 from pydantic_settings import SettingsConfigDict, BaseSettings
 from pydantic import Field, field_validator
+from enum import Enum
 
 
 class BotSettings(BaseSettings):
@@ -50,6 +51,3 @@ class Settings(BaseSettings):
 
 
 settings = Settings()
-
-
-

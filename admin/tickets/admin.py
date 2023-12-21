@@ -3,11 +3,18 @@ from .models import Slot, Ticket
 
 
 class SlotAdmin(admin.ModelAdmin):
-    list_display = ('slot_date', 'slot_time', 'is_open')
+    list_display = ("slot_date", "slot_time", "is_open")
 
 
 class TicketAdmin(admin.ModelAdmin):
-    list_display = ('client', 'slot', 'service', 'updated_at', 'created_at', 'is_active')
+    list_display = (
+        "client",
+        "slot",
+        "service",
+        "updated_at",
+        "created_at",
+        "is_active",
+    )
 
 
 admin.site.register(Ticket, TicketAdmin)
