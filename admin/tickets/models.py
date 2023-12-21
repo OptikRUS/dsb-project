@@ -6,6 +6,9 @@ class Slot(models.Model):
     slot_time = models.TimeField()
     is_open = models.BooleanField(default=True)
 
+    def __str__(self):
+        return str(self.slot_date) + str(self.slot_time)
+
     class Meta:
         managed = False
         db_table = "tickets_slot"
